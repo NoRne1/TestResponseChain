@@ -1,0 +1,16 @@
+PODS:
+  - TestResponseChain (0.1.0)
+
+DEPENDENCIES:
+  - TestResponseChain (from `../`)
+
+EXTERNAL SOURCES:
+  TestResponseChain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestResponseChain: 4a56a2b832489514c8a4d179bc93d2d583c598b2
+
+PODFILE CHECKSUM: ab7b65258564fbc80a6bd1c11571e96562d08927
+
+COCOAPODS: 1.11.2

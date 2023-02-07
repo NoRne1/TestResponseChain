@@ -1,0 +1,6 @@
+framework module Pods_TestResponseChain_Tests {
+  umbrella header "Pods-TestResponseChain_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

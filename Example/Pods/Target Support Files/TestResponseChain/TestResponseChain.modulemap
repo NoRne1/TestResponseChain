@@ -1,0 +1,6 @@
+framework module TestResponseChain {
+  umbrella header "TestResponseChain-umbrella.h"
+
+  export *
+  module * { export * }
+}
