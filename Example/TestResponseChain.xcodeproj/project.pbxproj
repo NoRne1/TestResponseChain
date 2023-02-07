@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1678BF3460DAB04C2CCDEC70 /* Pods_TestResponseChain_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCFAB0435DAE4654E407DB /* Pods_TestResponseChain_Example.framework */; };
+		4EA2831629923B2F0024681C /* ResponseChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2831529923B2F0024681C /* ResponseChainView.swift */; };
+		4EA2831829923DD50024681C /* ScopeFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2831729923DD50024681C /* ScopeFunc.swift */; };
+		4EA2831A299248960024681C /* ResponseChainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA28319299248960024681C /* ResponseChainButton.swift */; };
+		4EA2831C29924C280024681C /* ResponseChainControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2831B29924C280024681C /* ResponseChainControl.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -29,12 +32,15 @@
 
 /* Begin PBXFileReference section */
 		1E0B340AEF0014BD015BBBF3 /* Pods-TestResponseChain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestResponseChain_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestResponseChain_Tests/Pods-TestResponseChain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA2831529923B2F0024681C /* ResponseChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChainView.swift; sourceTree = "<group>"; };
+		4EA2831729923DD50024681C /* ScopeFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeFunc.swift; sourceTree = "<group>"; };
+		4EA28319299248960024681C /* ResponseChainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChainButton.swift; sourceTree = "<group>"; };
+		4EA2831B29924C280024681C /* ResponseChainControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChainControl.swift; sourceTree = "<group>"; };
 		57C6D65079FAFB81FCE9A8A8 /* Pods-TestResponseChain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestResponseChain_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestResponseChain_Tests/Pods-TestResponseChain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TestResponseChain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestResponseChain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TestResponseChain_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestResponseChain_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,10 +112,13 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				4EA2831529923B2F0024681C /* ResponseChainView.swift */,
+				4EA2831729923DD50024681C /* ScopeFunc.swift */,
+				4EA28319299248960024681C /* ResponseChainButton.swift */,
+				4EA2831B29924C280024681C /* ResponseChainControl.swift */,
 			);
 			name = "Example for TestResponseChain";
 			path = TestResponseChain;
@@ -212,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9VPGQPDD36;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9VPGQPDD36;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -246,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -269,10 +279,32 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestResponseChain_Example/Pods-TestResponseChain_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TestResponseChain/TestResponseChain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestResponseChain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +363,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA2831829923DD50024681C /* ScopeFunc.swift in Sources */,
+				4EA2831A299248960024681C /* ResponseChainButton.swift in Sources */,
+				4EA2831C29924C280024681C /* ResponseChainControl.swift in Sources */,
+				4EA2831629923B2F0024681C /* ResponseChainView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -355,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,6 +506,7 @@
 			baseConfigurationReference = 8F66D01745A17B4642F1A89B /* Pods-TestResponseChain_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VPGQPDD36;
 				INFOPLIST_FILE = TestResponseChain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -494,6 +523,7 @@
 			baseConfigurationReference = A405CA182F9DA56627077D4A /* Pods-TestResponseChain_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VPGQPDD36;
 				INFOPLIST_FILE = TestResponseChain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E0B340AEF0014BD015BBBF3 /* Pods-TestResponseChain_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9VPGQPDD36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57C6D65079FAFB81FCE9A8A8 /* Pods-TestResponseChain_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9VPGQPDD36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
