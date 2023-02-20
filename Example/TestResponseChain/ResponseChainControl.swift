@@ -22,17 +22,20 @@ class ResponseChainControl: UIControl {
       titleLabel.text = text
     }
   }
-  private let coverView: ResponseChainView = .init()
+  private let coverView: ResponseChainView = .init().also {
+    $0.backgroundColor = .orange
+  }
   private let titleLabel: UILabel = .init()
   override init(frame: CGRect) {
     super.init(frame: frame)
-    addSubview(titleLabel)
-    titleLabel.snp.makeConstraints{ make in
-      make.edges.equalToSuperview()
-    }
+//    addSubview(titleLabel)
+//    titleLabel.snp.makeConstraints{ make in
+//      make.edges.equalToSuperview()
+//    }
     addSubview(coverView)
     coverView.snp.makeConstraints{ make in
-      make.edges.equalToSuperview()
+      make.width.equalToSuperview().multipliedBy(0.5)
+      make.top.bottom.trailing.equalToSuperview()
     }
   }
 

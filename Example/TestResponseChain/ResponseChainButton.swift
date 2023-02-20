@@ -17,7 +17,9 @@ class ResponseChainButton: UIButton {
       alpha = isHighlighted ? 0.4 : 1.0
     }
   }
-  private let coverView: ResponseChainView = .init()
+  private let coverView: ResponseChainView = .init().also {
+    $0.backgroundColor = .orange
+  }
   override init(frame: CGRect) {
     super.init(frame: frame)
     addSubview(coverView)
